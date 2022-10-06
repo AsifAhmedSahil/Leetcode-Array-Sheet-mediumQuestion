@@ -1,7 +1,7 @@
 def threeSum(nums):
     res = []
     nums.sort()
-    print(nums)
+    # print(nums)
 
     length = len(nums)
 

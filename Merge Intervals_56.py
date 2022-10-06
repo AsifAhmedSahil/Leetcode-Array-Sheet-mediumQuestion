@@ -14,6 +14,8 @@ def mergeIntervals(intervals):
         else:
             output.append([start,end])
     return output
+    
+   
 
 print(mergeIntervals([[1,3],[2,6],[8,10],[15,18]]))
 # output = [[1, 6], [8, 10], [15, 18]]
